@@ -1,0 +1,92 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color:#DECBA4;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner{
+    background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+    color:  white;
+    margin-top: 50px;
+    text-align: center;
+    padding: 100px 0;
+    font-family: Reckless Neue,Didot,Bodoni MT,"Noto Serif Display",URW Palladio L,P052,Sylfaen,serif;
+}
+#small-Olivia {
+    height:200px;
+    filter: drop-shadow(1px 1px 1px black)
+}
+
+#Oliviastagram {
+    color: whitesmoke;
+    font-size: 100px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.bold {
+    font-weight: 900;
+}
+
+#sub{
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 15px;
+    border-width: 3px;
+    background-color: #3E5151;
+    color: white;
+}
+#sub hover {
+    background-color: #3E5151;
+}
+
+body {
+    background-image: linear-gradient(to bottom right,#3E5151, #DECBA4 );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.oliviacool {
+    font-family: Reckless Neue,Didot,Bodoni MT,"Noto Serif Display",URW Palladio L,P052,Sylfaen,serif;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+a.blue {
+    color: blue;
+}
+
+#oleevs ul {
+  list-style-type: none;
+}
+
+.avatar {
+    background-image: url(/resources/images/olivia-rodrigo-attends-the-academy-museum-of-motion-pictures-opening-gala-at-the-academy-museum-in-los-angeles-250921_17.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}  
+
+.input {
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: whitesmoke;
+    background-color: #3E5151;
+    color: white;
+}
